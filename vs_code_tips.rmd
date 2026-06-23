@@ -1,0 +1,13 @@
+""" 
+------------------ Tips Vs Code Pro ---------------------è
+
+Commenter rapidement une ligne : séléction +  Ctrl °  / 
+commenter rapidement plusieurs lignes  : sélection + Alt + Shift + A 
+Renommer une variable partout : selection de la variable + F2
+Rechercher et remplaçer : Ctrl + F et Ctrl + N 
+Mettre en forme rapidement le code : Shift + Alt + F
+Envelopper un texte de () ou {} ou [] ou "" ou '' : sélection du texte + le symbole 
+
+ """
+
+
