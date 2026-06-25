@@ -22,16 +22,13 @@ for p in points_critiques :
     print(f"f({p}) =", f.subs(x, p))
     
 #----------------ESPACE NUMPY------------------
-
 f_num = sp.lambdify(x, f, modules="numpy")
 f_prime_num = sp.lambdify(x, f_prime, modules="numpy")
 x = np.linspace(-3, 3, 600)
-
 y = f_num(x)
 y_prime = f_prime_num(x)
 
 # ----------------ESPACE MATPLOTLIB -------------------
-
 fig = plt.figure()
 x_crit = np.array(points_critiques, dtype="float")
 y_crit = f_num(x_crit)
