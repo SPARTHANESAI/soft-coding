@@ -3,11 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from sympy.calculus.util import continuous_domain
 
-# 3 D&finissons la variable symbolique "x"
+# 3 Définissons la variable symbolique "x"
 x = sp.symbols('x')
 
 # Définissons la fonction représentant le déplacement de l'avion 
-f = (2-x**2 + 100 * x)/x
+f = (2*x**2 + 100 * x)/x**2
 
 # Cherchons le domaine de définition de la fonction f(x)
 df = continuous_domain(f,x, sp.S.Reals)
@@ -55,6 +55,12 @@ plt.show()
     aussi le texte xorrespondant ). 
     4. Introduire le concept de vitesse de l'avion. 
     5. Introduire le missile et poursuivre la simulation jusqu'à la fin. 
+    Jje dois vérifier un truc quand il dagit de remplir lees formalités administratives pour le voyage vers la France 
+    Mtn s'il y' a un truc que je nendois pas oublier es de faire les choses dans les normes pour que ça marche comme cela se doit;
+    
+    
+    Ceci est une manière de dire que les plus belles vitoires de la vie sont encore plus belles lorsq'uelles sont partagée afec ceu que l'on aime. 
+    
 """
 
 
